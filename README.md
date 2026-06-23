@@ -390,3 +390,46 @@ The system shall deliver notifications for tournament updates, sponsorship reque
 
 ### NFR-US-30: Email Notifications
 The system shall send email notifications for account verification, password reset, tournament registration confirmations, sponsorship updates, and important platform announcements.
+
+# Project Scope
+
+## In Scope
+
+The following functionalities are included in the scope of the Unified eSports Platform:
+
+- User registration, authentication, and role-based access for Players, Teams, Tournament Organizers, Sponsors, Fans, and Administrators.
+- Creation, management, and verification of player gaming portfolios.
+- Team profile creation and corporate/team verification.
+- Tournament creation, scheduling, registration, participant management, bracket generation, and prize pool management.
+- Player and team registration for tournaments.
+- Sponsor discovery of players and teams through verified profiles and performance metrics.
+- Sponsorship request creation, management, and approval workflow.
+- Fan engagement through community forums, organizer subscriptions, live tournament viewing, and social interactions such as likes, comments, and shares.
+- Notification system for tournament updates, sponsorship requests, verification status, and important announcements.
+- Administrative dashboard for user verification, user management, content moderation, and platform monitoring.
+- Search and filtering of players, teams, tournaments, and sponsors.
+- Activity logging and reporting for administrative purposes.
+- Responsive web application accessible through modern web browsers.
+
+---
+
+## Out of Scope
+
+The following functionalities are excluded from the current version of the Unified eSports Platform:
+
+- Development or hosting of online multiplayer game servers.
+- In-game matchmaking and gameplay management.
+- Online betting, gambling, or fantasy eSports features.
+- Cryptocurrency or blockchain-based payments and rewards.
+- NFT-based player achievements or digital collectibles.
+- Integrated payment gateway for tournament fees and prize distribution.
+- AI-powered player recommendations and predictive analytics.
+- Native Android and iOS mobile applications.
+- Voice calling and video conferencing features.
+- Merchandise sales and e-commerce functionality.
+- Multi-language support beyond the default language.
+- Offline access to platform features.
+- Integration with external HR or recruitment management systems.
+- Advanced business intelligence and predictive reporting dashboards.
+- Automated anti-cheat detection systems.
+- Direct integration with all third-party gaming platforms and publisher APIs.
