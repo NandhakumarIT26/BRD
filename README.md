@@ -594,3 +594,594 @@ The system shall notify users about profile verification requests, approval stat
 
 ### FR-US-42: Community Notifications
 The system shall notify users about newsletters, organizer announcements, forum replies, live stream schedules, and other important community updates.
+
+
+
+
+# Functional Requirements
+
+## FR-US-01: Player Registration
+
+**User Story:**  
+As a Player, I want to register on the platform so that I can create my gaming profile and participate in tournaments.
+
+**Acceptance Criteria:**  
+The player shall be able to successfully register and create a new account using valid details.
+
+**Initial Size Estimate:** 5
+
+**Business Priority:** High
+
+---
+
+## FR-US-02: Team Registration
+
+**User Story:**  
+As a Team, I want to register on the platform so that I can recruit players and participate in tournaments.
+
+**Acceptance Criteria:**  
+The team shall be able to successfully register and create a team profile.
+
+**Initial Size Estimate:** 5
+
+**Business Priority:** High
+
+---
+
+## FR-US-03: Tournament Organizer Registration
+
+**User Story:**  
+As a Tournament Organizer, I want to register so that I can host and manage tournaments.
+
+**Acceptance Criteria:**  
+The tournament organizer shall be able to successfully register and access organizer functionalities.
+
+**Initial Size Estimate:** 3
+
+**Business Priority:** High
+
+---
+
+## FR-US-04: Sponsor Registration
+
+**User Story:**  
+As a Sponsor, I want to register so that I can discover and sponsor players and teams.
+
+**Acceptance Criteria:**  
+The sponsor shall be able to successfully register and access sponsor functionalities.
+
+**Initial Size Estimate:** 3
+
+**Business Priority:** High
+
+---
+
+## FR-US-05: Fan Registration
+
+**User Story:**  
+As a Fan, I want to create an account so that I can follow tournaments and interact with the community.
+
+**Acceptance Criteria:**  
+The fan shall be able to successfully register and access fan functionalities.
+
+**Initial Size Estimate:** 2
+
+**Business Priority:** Medium
+
+---
+
+## FR-US-06: User Login
+
+**User Story:**  
+As a Registered User, I want to securely log in so that I can access my dashboard.
+
+**Acceptance Criteria:**  
+The user shall be able to log in successfully using valid credentials.
+
+**Initial Size Estimate:** 3
+
+**Business Priority:** High
+
+---
+
+## FR-US-07: Forgot Password
+
+**User Story:**  
+As a Registered User, I want to reset my password so that I can regain access to my account.
+
+**Acceptance Criteria:**  
+The user shall be able to successfully reset the password through email verification.
+
+**Initial Size Estimate:** 3
+
+**Business Priority:** High
+
+---
+
+## FR-US-08: Account Verification
+
+**User Story:**  
+As an Administrator, I want to verify player portfolios and team requests so that only authentic users receive verified status.
+
+**Acceptance Criteria:**  
+The administrator shall be able to approve or reject verification requests.
+
+**Initial Size Estimate:** 5
+
+**Business Priority:** High
+
+---
+
+## FR-US-09: Build Portfolio
+
+**User Story:**  
+As a Player, I want to build my gaming portfolio so that I can showcase my skills and achievements.
+
+**Acceptance Criteria:**  
+The player shall be able to create and update a gaming portfolio.
+
+**Initial Size Estimate:** 5
+
+**Business Priority:** High
+
+---
+
+## FR-US-10: Upload Achievements
+
+**User Story:**  
+As a Player, I want to upload my achievements so that my profile reflects my gaming experience.
+
+**Acceptance Criteria:**  
+The player shall be able to upload and manage gaming achievements.
+
+**Initial Size Estimate:** 3
+
+**Business Priority:** High
+
+---
+
+## FR-US-11: Submit Portfolio for Verification
+
+**User Story:**  
+As a Player, I want to submit my portfolio for verification so that I can gain credibility.
+
+**Acceptance Criteria:**  
+The player shall be able to successfully submit the portfolio for verification.
+
+**Initial Size Estimate:** 3
+
+**Business Priority:** High
+
+---
+
+## FR-US-12: View Verification Status
+
+**User Story:**  
+As a Player, I want to view my verification status so that I know whether my profile has been approved.
+
+**Acceptance Criteria:**  
+The player shall be able to view the current verification status.
+
+**Initial Size Estimate:** 2
+
+**Business Priority:** Medium
+
+---
+
+## FR-US-13: Register for Tournament
+
+**User Story:**  
+As a Player, I want to register for tournaments so that I can compete.
+
+**Acceptance Criteria:**  
+The player shall be able to register for eligible tournaments.
+
+**Initial Size Estimate:** 5
+
+**Business Priority:** High
+
+---
+
+## FR-US-14: View Player Profiles
+
+**User Story:**  
+As a Team, I want to view player profiles so that I can recruit talented players.
+
+**Acceptance Criteria:**  
+The team shall be able to search and view player profiles.
+
+**Initial Size Estimate:** 3
+
+**Business Priority:** High
+
+---
+
+## FR-US-15: Corporate Verification Request
+
+**User Story:**  
+As a Team, I want to request verification so that my organization is recognized as authentic.
+
+**Acceptance Criteria:**  
+The team shall be able to submit a verification request successfully.
+
+**Initial Size Estimate:** 3
+
+**Business Priority:** High
+
+---
+
+## FR-US-16: Broadcast Newsletter
+
+**User Story:**  
+As a Team, I want to publish newsletters so that I can communicate with my followers.
+
+**Acceptance Criteria:**  
+The team shall be able to create and publish newsletters.
+
+**Initial Size Estimate:** 5
+
+**Business Priority:** Medium
+
+---
+
+## FR-US-17: Post Reviews
+
+**User Story:**  
+As a Team, I want to post reviews so that I can share tournament experiences.
+
+**Acceptance Criteria:**  
+The team shall be able to submit tournament reviews successfully.
+
+**Initial Size Estimate:** 2
+
+**Business Priority:** Low
+
+---
+
+## FR-US-18: Host Tournament
+
+**User Story:**  
+As a Tournament Organizer, I want to create tournaments so that players and teams can participate.
+
+**Acceptance Criteria:**  
+The organizer shall be able to successfully create a tournament.
+
+**Initial Size Estimate:** 8
+
+**Business Priority:** High
+
+---
+
+## FR-US-19: Configure Tournament Details
+
+**User Story:**  
+As a Tournament Organizer, I want to configure tournament details so that participants understand the event.
+
+**Acceptance Criteria:**  
+The organizer shall be able to configure tournament information successfully.
+
+**Initial Size Estimate:** 5
+
+**Business Priority:** High
+
+---
+
+## FR-US-20: Accept Player/Team Registrations
+
+**User Story:**  
+As a Tournament Organizer, I want to approve registrations so that eligible participants can compete.
+
+**Acceptance Criteria:**  
+The organizer shall be able to approve or reject participant registrations.
+
+**Initial Size Estimate:** 5
+
+**Business Priority:** High
+
+---
+
+## FR-US-21: Organize Participants
+
+**User Story:**  
+As a Tournament Organizer, I want to organize participants into brackets so that matches can be conducted efficiently.
+
+**Acceptance Criteria:**  
+The organizer shall be able to generate and manage tournament brackets.
+
+**Initial Size Estimate:** 8
+
+**Business Priority:** High
+
+---
+
+## FR-US-22: Manage Prize Pool
+
+**User Story:**  
+As a Tournament Organizer, I want to manage prize pools so that winners receive appropriate rewards.
+
+**Acceptance Criteria:**  
+The organizer shall be able to create and update prize pool information.
+
+**Initial Size Estimate:** 5
+
+**Business Priority:** Medium
+
+---
+
+## FR-US-23: View Player Profiles
+
+**User Story:**  
+As a Sponsor, I want to view player profiles so that I can identify sponsorship opportunities.
+
+**Acceptance Criteria:**  
+The sponsor shall be able to browse verified player profiles.
+
+**Initial Size Estimate:** 3
+
+**Business Priority:** High
+
+---
+
+## FR-US-24: Connect with Players
+
+**User Story:**  
+As a Sponsor, I want to connect with players so that I can discuss sponsorship opportunities.
+
+**Acceptance Criteria:**  
+The sponsor shall be able to send sponsorship requests to players.
+
+**Initial Size Estimate:** 5
+
+**Business Priority:** High
+
+---
+
+## FR-US-25: View Team Profiles
+
+**User Story:**  
+As a Sponsor, I want to view team profiles so that I can evaluate potential partnerships.
+
+**Acceptance Criteria:**  
+The sponsor shall be able to browse verified team profiles.
+
+**Initial Size Estimate:** 3
+
+**Business Priority:** High
+
+---
+
+## FR-US-26: Connect with Teams
+
+**User Story:**  
+As a Sponsor, I want to connect with teams so that I can establish sponsorship partnerships.
+
+**Acceptance Criteria:**  
+The sponsor shall be able to send sponsorship requests to teams.
+
+**Initial Size Estimate:** 5
+
+**Business Priority:** High
+
+---
+
+## FR-US-27: View Engagement Analytics
+
+**User Story:**  
+As a Sponsor, I want to view engagement analytics so that I can make informed sponsorship decisions.
+
+**Acceptance Criteria:**  
+The sponsor shall be able to access player and team engagement metrics.
+
+**Initial Size Estimate:** 5
+
+**Business Priority:** Medium
+
+---
+
+## FR-US-28: Create Sponsorship Request
+
+**User Story:**  
+As a Sponsor, I want to create sponsorship offers so that I can collaborate with players and teams.
+
+**Acceptance Criteria:**  
+The sponsor shall be able to create and submit sponsorship proposals.
+
+**Initial Size Estimate:** 5
+
+**Business Priority:** High
+
+---
+
+## FR-US-29: Accept Sponsorship Agreement
+
+**User Story:**  
+As a Player or Team, I want to accept sponsorship offers so that I can collaborate with sponsors.
+
+**Acceptance Criteria:**  
+The player or team shall be able to accept or reject sponsorship proposals.
+
+**Initial Size Estimate:** 3
+
+**Business Priority:** High
+
+---
+
+## FR-US-30: Community Collaboration
+
+**User Story:**  
+As a Fan, I want to interact with the gaming community so that I can engage with other enthusiasts.
+
+**Acceptance Criteria:**  
+The fan shall be able to participate in community discussions.
+
+**Initial Size Estimate:** 5
+
+**Business Priority:** Medium
+
+---
+
+## FR-US-31: Subscribe to Organizers
+
+**User Story:**  
+As a Fan, I want to subscribe to organizers so that I receive tournament updates.
+
+**Acceptance Criteria:**  
+The fan shall be able to subscribe to tournament organizers.
+
+**Initial Size Estimate:** 2
+
+**Business Priority:** Medium
+
+---
+
+## FR-US-32: Watch Live Streams
+
+**User Story:**  
+As a Fan, I want to watch live tournaments so that I can follow ongoing competitions.
+
+**Acceptance Criteria:**  
+The fan shall be able to access live tournament streams.
+
+**Initial Size Estimate:** 5
+
+**Business Priority:** High
+
+---
+
+## FR-US-33: Participate in Forums
+
+**User Story:**  
+As a Fan, I want to participate in discussion forums so that I can share ideas and opinions.
+
+**Acceptance Criteria:**  
+The fan shall be able to create and participate in forum discussions.
+
+**Initial Size Estimate:** 5
+
+**Business Priority:** Medium
+
+---
+
+## FR-US-34: Interact with Content
+
+**User Story:**  
+As a Fan, I want to like, comment, and share content so that I can engage with the community.
+
+**Acceptance Criteria:**  
+The fan shall be able to interact with published content.
+
+**Initial Size Estimate:** 3
+
+**Business Priority:** Medium
+
+---
+
+## FR-US-35: Verify Player Portfolio
+
+**User Story:**  
+As an Administrator, I want to verify player portfolios so that only genuine profiles are approved.
+
+**Acceptance Criteria:**  
+The administrator shall be able to verify submitted player portfolios.
+
+**Initial Size Estimate:** 5
+
+**Business Priority:** High
+
+---
+
+## FR-US-36: Verify Team Requests
+
+**User Story:**  
+As an Administrator, I want to verify teams so that authentic organizations receive verified status.
+
+**Acceptance Criteria:**  
+The administrator shall be able to verify submitted team requests.
+
+**Initial Size Estimate:** 5
+
+**Business Priority:** High
+
+---
+
+## FR-US-37: Manage Users
+
+**User Story:**  
+As an Administrator, I want to manage users so that platform policies are maintained.
+
+**Acceptance Criteria:**  
+The administrator shall be able to activate, suspend, or remove user accounts.
+
+**Initial Size Estimate:** 5
+
+**Business Priority:** High
+
+---
+
+## FR-US-38: Monitor Platform Activities
+
+**User Story:**  
+As an Administrator, I want to monitor platform activities so that the platform remains secure and compliant.
+
+**Acceptance Criteria:**  
+The administrator shall be able to monitor user and platform activities.
+
+**Initial Size Estimate:** 5
+
+**Business Priority:** High
+
+---
+
+## FR-US-39: Tournament Notifications
+
+**User Story:**  
+As a User, I want to receive tournament notifications so that I stay informed about tournament activities.
+
+**Acceptance Criteria:**  
+The system shall notify users about tournament updates.
+
+**Initial Size Estimate:** 3
+
+**Business Priority:** High
+
+---
+
+## FR-US-40: Sponsorship Notifications
+
+**User Story:**  
+As a User, I want to receive sponsorship notifications so that I am aware of sponsorship activities.
+
+**Acceptance Criteria:**  
+The system shall notify users about sponsorship requests and updates.
+
+**Initial Size Estimate:** 3
+
+**Business Priority:** Medium
+
+---
+
+## FR-US-41: Verification Notifications
+
+**User Story:**  
+As a User, I want to receive verification updates so that I know my account status.
+
+**Acceptance Criteria:**  
+The system shall notify users regarding verification decisions.
+
+**Initial Size Estimate:** 2
+
+**Business Priority:** Medium
+
+---
+
+## FR-US-42: Community Notifications
+
+**User Story:**  
+As a User, I want to receive community notifications so that I stay updated with platform activities.
+
+**Acceptance Criteria:**  
+The system shall notify users about community announcements and activities.
+
+**Initial Size Estimate:** 2
+
+**Business Priority:** Medium
