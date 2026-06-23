@@ -259,3 +259,134 @@ This project is developed as part of the **TCS ILP (Initial Learning Program)** 
 
 ---
 **Developed by Team – Unified eSports Platform**
+
+
+# Non-Functional Requirements
+
+## 1. Performance Requirements
+
+### NFR-US-01: Response Time
+The system shall respond to all user requests within **3 seconds** under normal operating conditions.
+
+### NFR-US-02: Concurrent Users
+The system shall support at least **10,000 concurrent users** without significant performance degradation.
+
+### NFR-US-03: Tournament Processing
+The system shall process tournament registrations, sponsorship requests, and notifications in real time.
+
+### NFR-US-04: Scalability
+The system shall support increasing numbers of users, tournaments, and live events without affecting overall performance.
+
+---
+
+## 2. Security Requirements
+
+### NFR-US-05: User Authentication
+The system shall provide secure authentication using encrypted passwords and role-based access control.
+
+### NFR-US-06: Data Encryption
+The system shall encrypt sensitive user information during both transmission and storage.
+
+### NFR-US-07: Secure Communication
+The system shall use HTTPS protocol for all communication between users and the server.
+
+### NFR-US-08: Access Control
+The system shall restrict access to features and resources based on user roles such as Player, Team, Tournament Organizer, Sponsor, Fan, and Administrator.
+
+### NFR-US-09: Session Management
+The system shall automatically terminate inactive user sessions after a predefined timeout period.
+
+---
+
+## 3. Reliability Requirements
+
+### NFR-US-10: System Availability
+The platform shall maintain an uptime of **99.9%**.
+
+### NFR-US-11: Error Handling
+The system shall display meaningful error messages without exposing sensitive system information.
+
+### NFR-US-12: Backup and Recovery
+The system shall perform regular data backups and support recovery in the event of system failures.
+
+---
+
+## 4. Usability Requirements
+
+### NFR-US-13: User-Friendly Interface
+The system shall provide an intuitive and easy-to-use interface for all users.
+
+### NFR-US-14: Responsive Design
+The platform shall function effectively across desktops, laptops, tablets, and smartphones.
+
+### NFR-US-15: Accessibility
+The system shall provide clear navigation, readable content, and accessible interface components.
+
+### NFR-US-16: Consistent User Experience
+The system shall maintain a consistent design and navigation throughout the platform.
+
+---
+
+## 5. Compatibility Requirements
+
+### NFR-US-17: Browser Compatibility
+The system shall support the latest versions of Google Chrome, Mozilla Firefox, Microsoft Edge, and Safari.
+
+### NFR-US-18: Device Compatibility
+The platform shall be compatible with Windows, macOS, Android, and iOS operating systems.
+
+---
+
+## 6. Maintainability Requirements
+
+### NFR-US-19: Modular Design
+The system shall follow a modular architecture to simplify maintenance and future enhancements.
+
+### NFR-US-20: Activity Logging
+The system shall maintain logs for user activities, tournament events, sponsorship requests, and administrative actions.
+
+### NFR-US-21: Documentation
+The system shall provide complete technical and user documentation for maintenance and future development.
+
+---
+
+## 7. Scalability Requirements
+
+### NFR-US-22: Database Scalability
+The database shall efficiently support increasing volumes of users, tournaments, teams, and player statistics.
+
+### NFR-US-23: Future Expansion
+The system architecture shall support future integration of AI recommendations, payment gateways, additional games, and mobile applications.
+
+---
+
+## 8. Availability Requirements
+
+### NFR-US-24: Continuous Service
+The platform shall be available **24×7** except during scheduled maintenance periods.
+
+### NFR-US-25: Maintenance Notification
+The system shall notify users in advance regarding planned maintenance activities.
+
+---
+
+## 9. Data Integrity Requirements
+
+### NFR-US-26: Data Validation
+The system shall validate all user inputs before storing them in the database.
+
+### NFR-US-27: Data Consistency
+The system shall maintain consistency across player profiles, tournaments, sponsorships, team information, and community activities.
+
+### NFR-US-28: Transaction Integrity
+The system shall ensure tournament registrations, sponsorship requests, and verification processes are completed without data loss or duplication.
+
+---
+
+## 10. Notification Requirements
+
+### NFR-US-29: Real-Time Notifications
+The system shall deliver notifications for tournament updates, sponsorship requests, verification status, and community announcements in near real time.
+
+### NFR-US-30: Email Notifications
+The system shall send email notifications for account verification, password reset, tournament registration confirmations, sponsorship updates, and important platform announcements.
