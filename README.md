@@ -433,3 +433,164 @@ The following functionalities are excluded from the current version of the Unifi
 - Advanced business intelligence and predictive reporting dashboards.
 - Automated anti-cheat detection systems.
 - Direct integration with all third-party gaming platforms and publisher APIs.
+
+
+
+
+# Functional Requirements
+
+## 1. Authentication and User Creation
+
+### FR-US-01: Player Registration
+The system shall allow players to register by providing their personal information, gaming profile details, email address, contact number, and password. The system shall validate the entered information, ensure the uniqueness of the email address, and create a player account upon successful registration.
+
+### FR-US-02: Team Registration
+The system shall allow teams to register by providing the team name, captain details, game category, contact information, and login credentials. Upon successful registration, the system shall create a team profile that can later be submitted for verification.
+
+### FR-US-03: Tournament Organizer Registration
+The system shall allow tournament organizers to register by providing organization details, contact information, email address, and password. The platform shall validate the information before granting organizer access.
+
+### FR-US-04: Sponsor Registration
+The system shall allow sponsors to register by providing company information, business category, email address, contact details, and password. After successful registration, sponsors shall gain access to sponsor-specific functionalities.
+
+### FR-US-05: Fan Registration
+The system shall allow fans to create an account using their personal information, email address, and password, enabling them to follow tournaments, teams, and players.
+
+### FR-US-06: User Login
+The system shall authenticate registered users using their email address or username and password. Based on the assigned role, the system shall redirect users to their respective dashboards.
+
+### FR-US-07: Forgot Password
+The system shall allow users to securely reset their passwords by verifying their registered email address through a password recovery mechanism.
+
+### FR-US-08: Account Verification
+The system shall enable administrators to verify player portfolios and team verification requests. Verified accounts shall receive a verification badge indicating authenticity.
+
+---
+
+## 2. Player Profile Management
+
+### FR-US-09: Build Portfolio
+Players shall be able to create and manage a professional gaming portfolio containing personal information, preferred games, achievements, rankings, gaming experience, and career history.
+
+### FR-US-10: Upload Achievements
+Players shall be able to upload tournament certificates, rankings, gameplay highlights, statistics, awards, and other supporting documents to strengthen their profile.
+
+### FR-US-11: Submit Portfolio for Verification
+Players shall be able to submit their completed gaming portfolio for administrator verification. The system shall notify administrators whenever a new verification request is received.
+
+### FR-US-12: View Verification Status
+Players shall be able to monitor the current verification status of their portfolio and receive notifications whenever the status changes.
+
+### FR-US-13: Register for Tournament
+Players shall be able to browse available tournaments, review eligibility requirements, and submit registration requests for eligible tournaments.
+
+---
+
+## 3. Team Management
+
+### FR-US-14: View Player Profiles
+Teams shall be able to search, filter, and view detailed player profiles, including gaming statistics, achievements, rankings, and verification status.
+
+### FR-US-15: Corporate Verification Request
+Teams shall be able to submit verification requests by providing the required organizational documents. Administrators shall review these requests before granting verified status.
+
+### FR-US-16: Broadcast Newsletter
+Verified teams shall be able to publish newsletters, announcements, and updates to communicate with their followers and supporters.
+
+### FR-US-17: Post Reviews
+Teams shall be able to publish reviews and feedback regarding tournaments, organizers, and overall event experiences.
+
+---
+
+## 4. Tournament Management
+
+### FR-US-18: Host Tournament
+Tournament organizers shall be able to create and publish tournaments by specifying tournament name, game title, format, dates, venue, participant limit, and registration period.
+
+### FR-US-19: Configure Tournament Details
+Organizers shall be able to define tournament rules, schedules, match formats, eligibility criteria, prize pools, and other tournament-related information.
+
+### FR-US-20: Accept Player/Team Registrations
+Organizers shall be able to review registration requests submitted by players and teams and approve or reject applications based on eligibility.
+
+### FR-US-21: Organize Participants
+The system shall enable organizers to automatically or manually generate tournament brackets, fixtures, match schedules, and participant pairings.
+
+### FR-US-22: Manage Prize Pool
+Organizers shall be able to define prize distributions, update prize information, and announce winners upon tournament completion.
+
+---
+
+## 5. Sponsor Management
+
+### FR-US-23: View Player Profiles
+Sponsors shall be able to browse verified player portfolios, achievements, rankings, and performance statistics before making sponsorship decisions.
+
+### FR-US-24: Connect with Players
+Sponsors shall be able to contact players directly through the platform to discuss sponsorship opportunities and collaborations.
+
+### FR-US-25: View Team Profiles
+Sponsors shall be able to browse verified team profiles, tournament history, achievements, and audience engagement statistics.
+
+### FR-US-26: Connect with Teams
+Sponsors shall be able to establish communication with teams for sponsorship discussions, partnerships, and promotional campaigns.
+
+### FR-US-27: View Engagement Analytics
+The platform shall provide sponsors with engagement metrics, including followers, tournament participation, audience reach, achievements, and overall performance trends.
+
+### FR-US-28: Create Sponsorship Request
+Sponsors shall be able to create sponsorship proposals containing sponsorship amount, duration, terms, and promotional expectations.
+
+### FR-US-29: Accept Sponsorship Agreement
+Players or teams shall be able to review sponsorship offers and either accept or reject the proposed agreement through the platform.
+
+---
+
+## 6. Fan Engagement Management
+
+### FR-US-30: Community Collaboration
+Fans shall be able to participate in gaming communities, share opinions, create discussions, and interact with fellow eSports enthusiasts.
+
+### FR-US-31: Subscribe to Organizers
+Fans shall be able to subscribe to tournament organizers to receive updates regarding tournaments, announcements, and upcoming events.
+
+### FR-US-32: Watch Live Streams
+The platform shall provide fans with access to live tournament broadcasts through integrated streaming services.
+
+### FR-US-33: Participate in Forums
+Fans shall be able to create discussion topics, reply to existing posts, and actively participate in community forums.
+
+### FR-US-34: Interact with Content
+Fans shall be able to like, comment on, and share platform content, including tournament updates, team announcements, and community posts.
+
+---
+
+## 7. Administration Management
+
+### FR-US-35: Verify Player Portfolio
+Administrators shall review submitted player portfolios, validate uploaded documents, and approve or reject verification requests.
+
+### FR-US-36: Verify Team Requests
+Administrators shall verify organizational details submitted by teams and grant verified status after successful validation.
+
+### FR-US-37: Manage Users
+Administrators shall be able to activate, suspend, deactivate, or permanently remove user accounts that violate platform policies.
+
+### FR-US-38: Monitor Platform Activities
+Administrators shall monitor tournaments, sponsorships, user activities, reported content, and community interactions to ensure compliance with platform policies.
+
+---
+
+## 8. Notifications Management
+
+### FR-US-39: Tournament Notifications
+The system shall notify players, teams, and organizers regarding tournament registrations, approvals, schedules, match results, and tournament announcements.
+
+### FR-US-40: Sponsorship Notifications
+The system shall notify sponsors, players, and teams whenever sponsorship requests are created, accepted, rejected, or updated.
+
+### FR-US-41: Verification Notifications
+The system shall notify users about profile verification requests, approval status, rejection reasons, and any additional information required.
+
+### FR-US-42: Community Notifications
+The system shall notify users about newsletters, organizer announcements, forum replies, live stream schedules, and other important community updates.
