@@ -1185,3 +1185,18 @@ The system shall notify users about community announcements and activities.
 **Initial Size Estimate:** 2
 
 **Business Priority:** Medium
+
+
+
+
+
+
+
+
+
+
+now Ill give 2 solution architecture that goint to merge because both are belong to same domain and theme : gamming and e-sports
+
+the flow would be brand have two way to prmote their game or product 
+1. finding influencers (gamming steammer) to promote the game.
+2. create tormament with price ffor the tpo gamer who win the game.
